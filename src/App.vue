@@ -1,5 +1,6 @@
 <template>
-  <div><el-button>123</el-button></div>
+<!-- 一级路由规则对象组件的挂载点 -->
+  <div><router-view></router-view></div>
 </template>
 <script>
 import { getListAPI } from '@/api/index.js'
